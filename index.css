@@ -73,3 +73,45 @@
     background-color: yellow;
     border-radius: 5px;
 }
+
+.dropdown {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid indigo;
+    border-radius: 5px;
+  }
+
+.dropbtn {
+    background-color: #0576b8;
+    color: white;
+    padding: 1px;
+    font-size: 14px;
+    border: 1px solid indigo;
+    border-radius: 5px;
+  }
+
+.dropdown-content {
+    color: black;
+    padding: 1px 2px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 1px 2px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid indigo;
+    border-radius: 5px;
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(226, 228, 134);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: flow-root;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
